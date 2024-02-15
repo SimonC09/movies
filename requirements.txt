@@ -1,4 +1,4 @@
 pandas==2.2.0
-scikit_learn==1.4.0
+scikit_learn==1.3.0
 st_clickable_images==0.0.3
 streamlit==1.30.0
