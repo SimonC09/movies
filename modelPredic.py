@@ -1,4 +1,3 @@
-from sklearn.neighbors import KNeighborsClassifier # K plus proche copains
 from sklearn.neighbors import NearestNeighbors # Voisin proche (?)
 from sklearn.metrics import accuracy_score, classification_report
 import pandas as pd
