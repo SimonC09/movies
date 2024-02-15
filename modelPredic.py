@@ -14,12 +14,12 @@ basImage = "http://image.tmdb.org/t/p/original/"
 
 # LES DATAFRAMES
 # dftmdbKnnTrue = pd.read_csv("tableReco\\dftmdbKnn.csv")
-dftitlePrincipalActDir = pd.read_csv("tableReco\\dftitlePrincipalActDir.csv")
-dftitleAkaFrOutSeri = pd.read_csv('usedatabase\\dftitleAkaFrOutSeri.csv')
-dftmdbposter = pd.read_csv("tableReco\\dftmdbposter.csv")
-dfCompany = pd.read_csv("tableReco\\companyFilm.csv")
-dftmdbKnn = pd.read_csv("tableReco\\dftmdbKnn.csv")
-dfPaysCie = pd.read_csv('tableReco\\dfPaysCie.csv')
+dftitlePrincipalActDir = pd.read_csv("dftitlePrincipalActDir.csv")
+dftitleAkaFrOutSeri = pd.read_csv('dftitleAkaFrOutSeri.csv')
+dftmdbposter = pd.read_csv("dftmdbposter.csv")
+dfCompany = pd.read_csv("companyFilm.csv")
+dftmdbKnn = pd.read_csv("dftmdbKnn.csv")
+dfPaysCie = pd.read_csv('dfPaysCie.csv')
 
 dftmdbKnn.drop_duplicates(subset='tconst', inplace = True)
 # dftitleAkaFrOutSeri.drop_duplicates(subset='titleId', inplace = True)
