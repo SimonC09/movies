@@ -212,7 +212,8 @@ def affiche(lisTitreFilm):
 ################################# CONTENU DU STREAMLIT ############################################################
 ###################################################################################################################
 st.title("SYSTEME DE RECOMMANDATION DE FILM")
-st.header('(parfait, infaillible et fantastique !)')
+st.header('parfait, infaillible et fantastique !')
+st.header('(Ou presque)')
 col1, col2 = st.columns(2)
 # with col1:
 #     st.image("https://i.ibb.co/RzPcD8s/yeahbb.jpg", width=600 )
