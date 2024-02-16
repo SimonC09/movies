@@ -3,9 +3,10 @@ from sklearn.metrics import accuracy_score, classification_report
 import pandas as pd
 import streamlit as st
 from st_clickable_images import clickable_images
-
+[theme]
+base="dark"
 #Streamlit plein ecran
-st.set_page_config(layout="wide", base="dark")
+st.set_page_config(layout="wide")
 #url de base pour afficher les images
 basImage = "http://image.tmdb.org/t/p/original/"
 
