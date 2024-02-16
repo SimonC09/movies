@@ -5,9 +5,6 @@ import streamlit as st
 from st_clickable_images import clickable_images
 #Streamlit plein ecran
 st.set_page_config(layout="wide")
-[theme]
-
-base = "dark"
 
 #url de base pour afficher les images
 basImage = "http://image.tmdb.org/t/p/original/"
